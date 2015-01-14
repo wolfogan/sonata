@@ -16,9 +16,9 @@ CREATE BY: Edgar Iván Avila Garrido
 
 */
 
--- <--></-->--------------------------
+-- ---------------------------
 -- Create Database
--- <-------></------->---------------------
+-- ---------------------------
 DROP DATABASE IF EXISTS address_book;
 CREATE DATABASE address_book;
 USE address_book;
