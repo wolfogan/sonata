@@ -15,7 +15,7 @@ h1{
 
 .contact{
 	text-align: left;
-	border: 3px solid black;
+	border: 3px solid #58ACFA;
 	width: 300px;
 	float: left;
 	margin-left: 20px;
@@ -25,11 +25,12 @@ h1{
 }
 
 .contact:hover{
+	border-color: black;
 	background-color: rgb(51, 122, 183);
 	color:white;
 	-webkit-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
--moz-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
+	-moz-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
+	box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
 }
 
 .contact:hover a{
