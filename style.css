@@ -1,3 +1,10 @@
+body
+{
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+
 a{
 	margin-left: 20px;
 }
@@ -5,9 +12,26 @@ a{
 h1{
 	font-family: "Roboto";
 }
+
 .contact{
-	border: 1px solid black;
+	text-align: left;
+	border: 3px solid black;
 	width: 300px;
 	float: left;
 	margin-left: 20px;
+	font-family: "Roboto";
+	font-size: 1.2em;
+	transition: all .5s ease;
+}
+
+.contact:hover{
+	background-color: rgb(51, 122, 183);
+	color:white;
+	-webkit-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
+-moz-box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
+box-shadow: 10px 10px 57px -9px rgba(151,148,242,1);
+}
+
+.contact:hover a{
+	color:black;
 }
