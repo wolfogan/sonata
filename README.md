@@ -1,4 +1,4 @@
-# sonata
+# Sonata Technical Interview
 Technical test from backend developer
 
 1.- Script database in address_book.sql to mysql.
